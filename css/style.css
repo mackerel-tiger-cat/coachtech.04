@@ -296,18 +296,18 @@ h2 {
   border: 1px solid #f5f5f5;
   border-radius: 0px 0px 20px 20px;
 }
-.img {
-  border-radius: 20px 20px 0px 0px;
-}
 .card__img {
   /*
   position: relative;
   */
   width: 100%;
   height: auto;
+}
+.border-radious-top {
   /*
-  border-radius: 20px 20px 0px 0px;
+  position: relative;
   */
+  border-radius: 20px;
 }
 .card__content {
   position: relative;
@@ -465,7 +465,7 @@ color: #808080;
   background: linear-gradient(90deg,
   #ff1493, #C71585);
   border-radius: 30px;
-  box-shadow: (0 5px 0 #8B008B);
+  box-shadow: 0 10px 0 #8B008B ;
 }
 .download__btn::before {
   content: "";
