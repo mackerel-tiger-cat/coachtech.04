@@ -30,7 +30,7 @@ p {
 .header-nav-list {
   display: flex;
   text-decoration-line: none;
-  color: inherit；
+  color: inherit；;
 }
 .header-nav-item:not(:last-child) {
   margin-right: 42px;
@@ -58,35 +58,38 @@ p {
   width: 40%;
   font-size: 50px;
   font-weight: bold;
-  color: #808080; 
+  color: #808080;
 }
 .absolute__content__ttl {
   padding: 10px;
-  color: #C71585;
-  font-family: 'Pattaya', sans-serif;
+  color: #c71585;
+  font-family: "Pattaya", sans-serif;
 }
 .font__color__change {
-  color: #20B2AA;
-  font-family: 'Pattaya', sans-serif;
+  color: #20b2aa;
+  font-family: "Pattaya", sans-serif;
 }
 h2 {
   padding: 10px;
-  color: #C71585;
+  color: #c71585;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 20px;
 }
 .content__small__message {
-  padding; 10px;
+  padding: 10px;
   color: #808080;
   font-family: "Lato", sans-serif;
   font-size: 14px;
 }
 /*2番目*/
+.second__ttl {
+  margin-left: 80px;
+}
 p {
   text-align: left;
-  font-family: 'Pattaya', sans-serif;
+  font-family: "Pattaya", sans-serif;
   font-size: 14px;
-  color: #C71585;
+  color: #c71585;
 }
 h2 {
   font-family: "Noto Sans JP", sans-serif;
@@ -114,7 +117,7 @@ li {
 }
 */
 .label {
-  background-color: #C71585;
+  background-color: #c71585;
   border-radius: 20px;
   color: #ffffff;
   padding: 2px 5px;
@@ -127,11 +130,11 @@ li {
 .third__ttl {
   text-align: center;
 }
-h3{
+h3 {
   padding: 20px 0px 0px 0px;
-  font-family: 'Pattaya', sans-serif;
+  font-family: "Pattaya", sans-serif;
   font-size: 14px;
-  color: #C71585;
+  color: #c71585;
 }
 h2 {
   font-family: "Noto Sans JP", sans-serif;
@@ -149,7 +152,7 @@ h2 {
 .overflow-wrap {
   overflow-wrap: break-word;
   width: 38%;
-  padding:15px;
+  padding: 15px;
   margin-top: -5px;
   margin-bottom: 10em;
   font-size: 16px;
@@ -162,41 +165,50 @@ h2 {
   width: 38%;
 }
 /*4番目*/
-p{
-  font-family: 'Pattaya', sans-serif;
+.fourth__ttl {
+  margin-left: 0px auto;
+}
+p {
+  font-family: "Pattaya", sans-serif;
   font-size: 14px;
-  color: #C71585;
+  color: #c71585;
 }
 h2 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: font-we;
   color: #808080;
 }
+/*
 .grid {
   margin: 10px 80px;
-}
-.grid__parent {
-  /*縦*/
-  grid-template-rows: 500px 500px;
-  /*横*/
+  縦
+  grid-template-rows: 300px 300px;
+  横
   grid-template-columns: 2fr 2fr;
+}
+*/
+.grid {
+  width: 1200px;
+  height: auto;
 }
 .wrap__1 {
   grid-column: 1/2;
   grid-row: 1/3;
-  background: #8B008B;
+  background: #8b008b;
   /*左右上下中央寄せの記述*/
   /*
   display: flex;
   */
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  /*
+  margin-left: 0px auto;
+  */
 }
 .wrap__2 {
   grid-column: 2/3;
-  grid-row:1/2;
-  background: #BA55D3;
+  grid-row: 1/2;
+  background: #ba55d3;
   /*要素を横に均等に並べる記述*/
   display: flex;
   justify-content: space-around;
@@ -204,55 +216,70 @@ h2 {
 .wrap__3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  background-color: #9370DB;
+  background-color: #9370db;
   /*要素を横に均等に並べる記述*/
   display: flex;
   justify-content: space-around;
 }
 .item {
+  display: grid;
+  /*縦*/
+  grid-template-rows: 200px 200px;
+  /*横*/
+  grid-template-columns: 2fr 2fr;
+  margin-left: 0px auto;
   padding: 20px 20px;
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   table-layout: fixed;
-  display: grid;
 }
 .item__1 img {
-  margin-top: 5px;
-  margin-left: 65px;
-  width: 50%;
+  margin-top: 30px;
+  margin-left: 233px;
+  width: 19%;
   height: auto;
 }
-.item__2 img, .item__3 img {
+.item__2 img,
+.item__3 img {
   width: 100%;
   height: auto;
-  margin-top: 5px;
-  margin-left: 20px;
+  margin-top: 45px;
+  margin-left: 40px;
 }
 .item__1__content {
+  margin-top: 40px;
   text-align: center;
+  line-height: 150%;
 }
-.item__2__content, .item__3__content {
-  margin-top: 20px;
+.item__2__content,
+.item__3__content {
+  margin-top: 60px;
   margin-left: 50px;
   text-align: left;
 }
+/*
 .grid__ttl {
-  margin-left: 100px;
+  margin-left: 40px;
 }
-.grid__ttl--1, .grid__ttl--2 {
+*/
+.grid__ttl--1,
+.grid__ttl--2 {
   margin-left: 40px;
 }
 .grid__content {
+  margin-left: 12px;
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   /*余白を上手く作れない*/
-  padding: 10px 10px;
+  padding: 10px 30px;
   /*文字を決められた範囲で自動的に折り返す*/
   word-break: break-all;
+  line-height: 150%;
 }
-.grid__content--1, .grid__content--2 {
+.grid__content--1,
+.grid__content--2 {
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
@@ -261,17 +288,21 @@ h2 {
   padding: 10px 10px;
   /*文字を句読点で区切る*/
   word-break: keep-all;
+  line-height: 150%;
 }
 /*5番目*/
-.wrapper {
-background-color: #f5f5f5;
-margin: 20px 0px;
-padding:10px 0px;
+.fifth__ttl {
+  margin-left: 0px auto;
 }
-p{
-  font-family: 'Pattaya', sans-serif;
+.wrapper {
+  background-color: #f5f5f5;
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+p {
+  font-family: "Pattaya", sans-serif;
   font-size: 14px;
-  color: #C71585;
+  color: #c71585;
   padding: 10px 0px;
 }
 h2 {
@@ -311,17 +342,20 @@ h2 {
 }
 .card__content {
   position: relative;
+  /*
   padding: 15px 25px;
+  */
 }
 .card__cat {
   position: absolute;
   top: 0px;
   left: 2px;
   padding: 5px 10px;
-  background: #C71585;
+  background: #c71585;
   display: inline-block;
   color: #ffffff;
   font-size: 14px;
+  border-top-left-radius: 20px;
 }
 .card__ttl {
   margin-bottom: 30px;
@@ -336,18 +370,26 @@ h2 {
 .tag {
   font-size: 12px;
   /*親要素にtext-alignを適用すると子要素のinline-block要素に適応される*/
+  display: flex;
+  justify-content: center;
+  margin-right: 70px;
+  /*
   text-align: right;
+  */
 }
 .card__date {
   /*横並びにするためにinline-blockを指定*/
+  /*
   display: inline-block;
-  margin-left: 25px;
+  */
   color: #808080;
   font-family: "Lato", sans-serif;
 }
 .card__tag {
   /*横並びにするためにinline-blockを指定*/
+  /*
   display: inline-block;
+  */
   color: #808080;
   font-family: "Lato", sans-serif;
 }
@@ -358,19 +400,22 @@ h2 {
   margin: 50px auto;
   padding: 18px;
   display: block;
-  border: 3px solid #C71585;
+  border: 3px solid #c71585;
   border-radius: 30px;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  color: #C71585;
+  color: #c71585;
 }
 /*6番目*/
-p{
-  font-family: 'Pattaya', sans-serif;
+.sixth__ttl {
+  margin-left: 130px;
+}
+p {
+  font-family: "Pattaya", sans-serif;
   font-size: 14px;
-  color: #C71585;
+  color: #c71585;
   padding: 10px 0px;
   padding-left: 70px;
 }
@@ -402,7 +447,8 @@ table th {
   width: 100%;
   margin: 50px 0px;
 }
-.mv1,.mv2 {
+.mv1,
+.mv2 {
   top: 50%;
   position: relative;
 }
@@ -410,10 +456,10 @@ img {
   width: 100%;
 }
 .card__img__1 {
- position: relative;
- background: url(img/recruit.png) no-repeat center/cover;
- height: auto;
- width: 500px;
+  position: relative;
+  background: url(img/recruit.png) no-repeat center/cover;
+  height: auto;
+  width: 500px;
 }
 .card__content__1 {
   position: absolute;
@@ -423,10 +469,10 @@ img {
   transform: translate(-50%, -50%);
 }
 .card__img__2 {
- position: relative;
- background: url(img/interview.png) no-repeat center/cover;
- height: auto;
- width: 500px;
+  position: relative;
+  background: url(img/interview.png) no-repeat center/cover;
+  height: auto;
+  width: 500px;
 }
 .card__content__2 {
   position: absolute;
@@ -440,19 +486,19 @@ img {
   margin: 15px auto;
   width: 3px;
   height: 50px;
-  background-color: #C71585;
+  background-color: #c71585;
 }
 .btn__message {
-margin: 15px auto;
-font-family: "Noto Sans JP", sans-serif;
-font-size: 18px;
-font-weight: bold;
-text-align: center;
-color: #808080;
+  margin: 15px auto;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #808080;
 }
 .download__btn {
   position: relative;
-  width: 200px;
+  width: 160px;
   padding: 18px;
   margin: 15px auto;
   margin-bottom: 50px;
@@ -462,10 +508,9 @@ color: #808080;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background: linear-gradient(90deg,
-  #ff1493, #C71585);
-  border-radius: 30px;
-  box-shadow: 0 10px 0 #8B008B ;
+  background: linear-gradient(90deg, #ff1493, #c71585);
+  border-radius: 60px;
+  box-shadow: 0 6px 0 #8b008b;
 }
 .download__btn::before {
   content: "";
