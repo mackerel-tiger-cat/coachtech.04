@@ -146,6 +146,7 @@ h2 {
 .about__content {
   display: flex;
   justify-content: space-around;
+  line-height: 150%;
 }
 .overflow-wrap {
   overflow-wrap: break-word;
@@ -361,6 +362,7 @@ h2 {
 }
 .card__ttl {
   margin-bottom: 30px;
+  line-height: 150%;
   /*
   text-align: left;
   */
