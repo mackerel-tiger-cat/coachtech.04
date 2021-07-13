@@ -37,8 +37,6 @@ p {
 }
 /*メイン*/
 .main {
-  width: 1000px;
-  height: auto;
   color: #808080;
 }
 /*1番目*/
@@ -83,7 +81,7 @@ h2 {
 }
 /*2番目*/
 .second__ttl {
-  margin-left: 80px;
+  margin-left: 440px;
 }
 p {
   text-align: left;
@@ -186,11 +184,12 @@ h2 {
   横
   grid-template-columns: 2fr 2fr;
 }
-*/
 .grid {
+  /*
   width: 1200px;
   height: auto;
 }
+  */
 .wrap__1 {
   grid-column: 1/2;
   grid-row: 1/3;
@@ -227,7 +226,8 @@ h2 {
   grid-template-rows: 200px 200px;
   /*横*/
   grid-template-columns: 2fr 2fr;
-  margin-left: 0px auto;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 20px 20px;
   color: #ffffff;
   font-size: 14px;
@@ -236,7 +236,7 @@ h2 {
 }
 .item__1 img {
   margin-top: 30px;
-  margin-left: 233px;
+  margin-left: 255px;
   width: 19%;
   height: auto;
 }
@@ -244,7 +244,7 @@ h2 {
 .item__3 img {
   width: 100%;
   height: auto;
-  margin-top: 45px;
+  margin-top: 35px;
   margin-left: 40px;
 }
 .item__1__content {
@@ -292,11 +292,11 @@ h2 {
 }
 /*5番目*/
 .fifth__ttl {
-  margin-left: 0px auto;
+  margin-left: 110px;
 }
 .wrapper {
   background-color: #f5f5f5;
-  margin: 20px 0px;
+  margin: 10px 0px;
   padding: 10px 0px;
 }
 p {
@@ -316,12 +316,14 @@ h2 {
   position: relative;
   */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  /*
   width: 1000px;
   height: auto;
+  */
 }
 .card {
-  width: 30%;
+  width: 20%;
   height: auto;
   background-color: #ffffff;
   border: 1px solid #f5f5f5;
@@ -410,7 +412,7 @@ h2 {
 }
 /*6番目*/
 .sixth__ttl {
-  margin-left: 130px;
+  margin-left: 280px;
 }
 p {
   font-family: "Pattaya", sans-serif;
@@ -452,14 +454,22 @@ table th {
   top: 50%;
   position: relative;
 }
+.mv1 {
+  margin-left: 170px;
+}
+.mv2 {
+  margin-right: 170px;
+}
 img {
   width: 100%;
 }
 .card__img__1 {
   position: relative;
   background: url(img/recruit.png) no-repeat center/cover;
+  /*
   height: auto;
   width: 500px;
+  */
 }
 .card__content__1 {
   position: absolute;
@@ -471,8 +481,10 @@ img {
 .card__img__2 {
   position: relative;
   background: url(img/interview.png) no-repeat center/cover;
+  /*
   height: auto;
   width: 500px;
+  */
 }
 .card__content__2 {
   position: absolute;
